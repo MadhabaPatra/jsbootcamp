@@ -1,0 +1,36 @@
+![made-with-HTML](https://img.shields.io/badge/Made%20with-HTML%20&%20CSS-blue?style=for-the-badge)
+![Time taken](https://img.shields.io/badge/Time%20taken-03H%3A33M%3A50S-tomato?style=for-the-badge&logo=Clockify)
+[![Demo](https://img.shields.io/badge/See%20Demo-Visit-green?style=for-the-badge&logo=web)](https://jsbootcamp.madhabapatra.com/html-and-css/project-11/)
+
+# Hosting Landing Page
+>Project 11
+
+<table>
+<tr>
+<td>
+  A landing page designed using pure HTML & CSS.
+</td>
+</tr>
+</table>
+
+
+### Screenshot
+
+![project 11](thumbnail.png)
+
+
+## Device support
+The WebApp is compatible with desktop screen only, and consistent improvements are being made.
+
+## Skills Gained from this project
+
+- CSS Grid
+- CSS Flexbox
+- Assets like Background image,vector icons,font family
+- CSS Box shadow
+- CSS Linear gradient
+- CSS Grid area
+
+## Author
+
+<a href="https://github.com/MadhabaPatra"> <img src="https://github.com/MadhabaPatra.png" alt="Madhaba Patra" style="width:50px;"/></a> 
