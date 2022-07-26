@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Roboto";
+}
+
+main {
+  background-image: url(../images/bg.png);
+  background-size: cover;
+  height: 100vh;
+  background-position: bottom -100px right;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 2%;
+}
+
+nav > img {
+  height: 40px;
+  flex: 1;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 2;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 2%;
+  margin-right: 3%;
+}
+
+.nav-item {
+  font-size: 16px;
+}
+nav .action-item {
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+}
+.action-item .action-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.intro-section {
+  display: flex;
+  justify-content: space-around;
+}
+.left-section {
+  padding: 6%;
+  width: 40vw;
+}
+.left-section h3 {
+  font-size: 62px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.left-section button {
+  background: transparent;
+  border: 3px solid #fff;
+  border-radius: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 3% 8%;
+  margin-top: 70px;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.cards {
+  background-color: rgba(47, 68, 84, 0.8);
+  padding: 25px;
+  color: #fff;
+  width: 190px;
+}
+
+.card-btns img {
+  width: 25px;
+}
+
+.card-btns {
+  background-color: white;
+  border: none;
+  padding: 2%;
+  border-radius: 30px;
+  width: 90px;
+}
+.card-1 img {
+  transform: rotate(-90deg);
+}
+
+.cards h4 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.card-2 {
+  position: absolute;
+  bottom: 10vh;
+  right: 29vw;
+}
+
+.lines .line {
+  width: 77px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.lines .circle {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.line-1 .line {
+  position: absolute;
+  transform: rotate(90deg);
+  top: 46vh;
+  right: 10vw;
+  width: 78px;
+}
+
+.line-1 .circle {
+  position: absolute;
+  top: 50vh;
+  right: 12vw;
+}
+
+.line-2 .line {
+  position: absolute;
+  bottom: 25vh;
+  right: 24vw;
+}
+
+.line-2 .circle {
+  position: absolute;
+  bottom: 24vh;
+  right: 24vw;
+}
