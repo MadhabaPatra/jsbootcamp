@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Poppins";
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f2f0;
+}
+
+.left-section {
+  width: 35vw;
+  height: 100vh;
+  background-image: url("../images/girl.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: blue;
+}
+
+.logo-container {
+  padding: 12% 15%;
+}
+.logo-container img {
+  height: 35px;
+}
+
+.right-section {
+  width: 60vw;
+  padding: 4% 6%;
+}
+
+nav {
+  display: flex;
+  gap: 80px;
+  width: 100%;
+  align-content: center;
+}
+.solid-line {
+  width: 450px;
+  height: 2px;
+  background-color: #828282;
+  margin-top: 10px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-item {
+  font-size: 14px;
+  font-weight: 500;
+  color: #828282;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.nav-item.active-item,
+.nav-item:hover {
+  color: #303030;
+}
+
+.hero-container {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.creativity-text {
+  display: flex;
+  padding-top: 5px;
+}
+
+.creativity-text h1 {
+  font-size: 102px;
+  color: transparent;
+  font-family: "Merriweather";
+  -webkit-text-stroke: 1px #303030;
+  line-height: 1;
+}
+.creativity-text h1 > p {
+  color: #303030;
+  margin-left: 40%;
+  font-weight: 600;
+}
+.hero-container > div > p {
+  font-family: "Merriweather";
+  font-size: 26px;
+  width: 75px;
+  color: #828282;
+  margin-left: 30px;
+}
+
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.social-buttons img {
+  width: 20px;
+}
+
+.action-button {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 2%;
+}
+.action-button button {
+  cursor: pointer;
+  background-color: #303030;
+  border: 1px solid #303030;
+  color: #fff;
+  padding: 2% 7%;
+  font-size: 18px;
+  font-weight: 500;
+}
+.action-button button:hover {
+  background: transparent;
+  color: #303030;
+}
+
+.content-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  bottom: 0;
+  position: absolute;
+}
+
+.timeline {
+  border-left: 2px solid #828282;
+  width: 15vw;
+}
+
+.timeline i {
+  font-size: 13px;
+  margin-right: 30px;
+}
+
+.timeline ul {
+  list-style: none;
+  margin-left: -8px;
+  margin-top: -8px;
+}
+
+.timeline ul li {
+  cursor: pointer;
+  text-align: left;
+  margin-bottom: 40px;
+  color: #828282;
+}
+
+.timeline .active-timeline,
+.timeline ul li:hover {
+  color: #303030;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+}
+.quote img {
+  width: 380px;
+}
+.quote i {
+  font-size: 42px;
+}
+.quote p {
+  width: 25vw;
+  font-size: 16px;
+  margin: 10px 0px;
+}
+
+.down-arrow {
+  padding: 4% 6%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 20vw;
+}
+.down-arrow img {
+  width: 80px;
+}
