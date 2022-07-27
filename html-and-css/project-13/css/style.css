@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Montserrat";
+  --gradient-theme: linear-gradient(to right, #08a7f4, #0683ef);
+}
+
+.container {
+  background-color: #7030cc;
+}
+
+.navbar-container {
+  padding: 3% 4%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 120px;
+}
+
+.nav-items {
+  width: 55vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-item {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  text-transform: capitalize;
+  padding-bottom: 3px;
+}
+
+.nav-item.active-item,
+.nav-item:hover {
+  color: #1bbcef;
+  border-bottom: 1px solid #a532bc;
+}
+
+.nav-button {
+  background-color: #1bbcef;
+  border: 1px solid #1bbcef;
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 15px 25px;
+  text-transform: uppercase;
+}
+
+.nav-button:hover {
+  background: transparent;
+}
+
+.banner-container {
+  padding: 2% 2% 2% 4%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-container .img-section {
+  padding: 0;
+  width: 50%;
+}
+.banner-container .img-section img {
+  width: 100%;
+  height: auto;
+}
+
+.banner-container .content-section {
+  width: 38%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.banner-container .content-section h1 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.banner-container .content-section p {
+  font-size: 20px;
+  line-height: 1.8;
+  margin: 40px 0px;
+  padding-right: 70px;
+  color: #d4d4d4;
+}
+
+.feature-container {
+  padding: 5% 6%;
+  width: 80vw;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feature-container .container-header h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #000000;
+  padding: 0% 30%;
+}
+.feature-container .feature-banner {
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feature-container .feature-banner .img-section {
+  padding: 0;
+  height: 600px;
+}
+.feature-container .feature-banner .img-section img {
+  height: 100%;
+  width: auto;
+}
+
+.feature-section {
+  width: 25vw;
+  text-align: left;
+}
+.feature-section h4 {
+  font-size: 28px;
+}
+.sub-headlines {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+
+.sub-headline {
+  margin-top: 20px;
+}
+.sub-headlines h5 {
+  color: #000000;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.sub-headline i {
+  margin-right: 20px;
+}
+
+.red-headline i {
+  color: #f28a3f;
+}
+
+.green-headline i {
+  color: #7aca3a;
+}
+.blue-headline i {
+  color: #3f9cf2;
+}
+
+.sub-headline p {
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 45px;
+  font-weight: 500;
+  line-height: 2;
+  padding-right: 20px;
+}
+
+.feature-container .cards {
+  display: grid;
+  align-items: center;
+  grid-auto-flow: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.feature-container .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 25px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  height: 35vh;
+  padding-top: 20%;
+}
+
+.feature-container .card-img * {
+  background-color: #faeaeb;
+  border-radius: 50%;
+  font-size: 42px;
+  padding: 40px;
+  color: rgb(78, 72, 79);
+}
+
+.feature-container .orange-card .card-img * {
+  color: #e8a413;
+  background-color: #fae9c5;
+}
+.feature-container .green-card .card-img * {
+  color: #1d9387;
+  background-color: #eaf4f3;
+}
+
+.feature-container .purple-card .card-img * {
+  color: #f3e9;
+  background-color: #f3e9f6;
+}
+
+.feature-container .card .card-footer {
+  text-align: center;
+  padding: 8% 15%;
+  border-radius: 25px;
+  color: #000000;
+}
+
+.feature-container .card.active-card .card-footer,
+.feature-container .card:hover .card-footer {
+  background-color: #6d2fc3;
+  border-color: #6d2fc3;
+  color: #fff;
+}
+
+.feature-container .card h4 {
+  font-size: 18px;
+}
+.feature-container .card p {
+  font-size: 12px;
+  margin-top: 10px;
+}
