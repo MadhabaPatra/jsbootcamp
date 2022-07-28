@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Montserrat";
+  --lightred: #ff3343;
+  --darkred: #c91b28;
+}
+
+.container {
+  background-color: #111111;
+  z-index: -2;
+  position: absolute;
+}
+
+.navbar-container {
+  padding: 3%;
+  padding-right: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 90px;
+}
+
+.nav-items {
+  width: 45vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-item {
+  font-size: 11px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.nav-item.active-item,
+.nav-item:hover {
+  color: var(--lightred);
+}
+.nav-item i {
+  margin-left: 5px;
+  font-size: 13px;
+}
+.banner-container {
+  padding: 2% 2% 0% 4%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-container .img-section {
+  padding: 0;
+  width: 35%;
+}
+.banner-container .img-section img {
+  width: 100%;
+  height: auto;
+}
+
+.banner-container .content-section {
+  width: 38%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.banner-container .content-section h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--lightred);
+}
+
+.banner-container .content-section h1 {
+  font-size: 58px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.banner-container .content-section p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 20px 0px;
+  padding-right: 70px;
+  color: #d4d4d4;
+}
+
+.red-button {
+  cursor: pointer;
+  background-color: var(--lightred);
+  color: #fff;
+  border: 1px solid var(--lightred);
+  text-transform: uppercase;
+  padding: 2% 4%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.red-button:hover {
+  background: transparent;
+  color: var(--lightred);
+}
+
+.card-background {
+  background-color: #181818;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  width: 50%;
+  height: 110vh;
+}
+/* Services we provide */
+.service.cards {
+  padding: 3% 2% 2% 4%;
+  display: grid;
+  justify-content: center;
+  grid-auto-flow: column;
+}
+.service .card {
+  background-color: #1e1e1e;
+  padding: 35px;
+  width: 15vw;
+  margin: 20px;
+}
+
+.service .card img,
+.service .card > i {
+  width: 60px;
+  font-size: 68px;
+}
+
+.service .card.active {
+  background-color: var(--darkred);
+}
+
+.service .card.active > i {
+  color: #fff;
+}
+.service .card.active > a {
+  color: #fff;
+}
+.service .card h4 {
+  font-size: 28px;
+  margin: 20px 0px;
+  color: #fff;
+}
+
+.service .card p {
+  font-size: 18px;
+  color: #fff;
+  margin: 20px 0px;
+}
+.service .card a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--lightred);
+  font-weight: 600;
+  font-size: 18px;
+}
+.service .card a:hover {
+  color: #000000;
+}
+
+.experiance-section {
+  padding: 3%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+.experiance-section .left-section {
+  text-align: center;
+}
+
+.experiance-section .left-section h4 {
+  font-size: 102px;
+  font-weight: 900;
+  color: var(--lightred);
+}
+.experiance-section .left-section p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.experiance-section .cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 42vw;
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+
+.experiance-section .card {
+  background-color: #1e1e1e;
+  width: 18vw;
+  padding: 8px 20px;
+  text-align: center;
+}
+
+.experiance-section .card:hover {
+  background-color: var(--darkred);
+}
+
+.experiance-section .card h4 {
+  font-size: 42px;
+  margin: 10px 0px;
+  color: var(--lightred);
+}
+
+.experiance-section .card:hover h4 {
+  color: #fff;
+}
+.experiance-section .card p {
+  font-size: 14px;
+  color: #fff;
+  margin: 10px 0px;
+}
+
+.project-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0%;
+}
+.project-section .container-header {
+  display: flex;
+  justify-content: space-between;
+  width: 62vw;
+  padding: 2% 0%;
+  margin-left: 5%;
+}
+
+.project-section .container-header h1 {
+  color: #fff;
+  font-size: 22px;
+}
+.project-section .container-header p {
+  color: #fff;
+  font-size: 12px;
+}
+
+.projects {
+  width: 62vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 60px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project-img {
+  width: 25vw;
+  padding: 25% 8%;
+  background-color: #181818;
+}
+.project-card .project-img img {
+  width: 100%;
+}
+
+.project-card h5 {
+  font-size: 24px;
+  margin: 10px 0px;
+  color: #fff;
+}
+
+.project-card a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  color: var(--lightred);
+}
+
+.project-section button {
+  margin-right: 2%;
+}
+
+.contact-section {
+  margin: 2% auto;
+  padding: 4%;
+  background-color: #181818;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 58vw;
+}
+
+.contact-section .left-section {
+  width: 30vw;
+}
+.contact-section .left-section h1 {
+  color: #fff;
+  font-size: 42px;
+}
+.contact-section .left-section p {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.contact-section .right-section {
+  display: flex;
+  width: 20vw;
+  justify-content: flex-end;
+}
+
+.footer-section {
+  margin: 0 auto;
+  padding: 2% 0%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-section h5 {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.footer-section h5:hover {
+  color: var(--lightred);
+}
+
+footer {
+  width: 100%;
+  padding: 2% 0%;
+  text-align: center;
+  background-color: #1e1e1e;
+}
+
+footer > div {
+  width: 65vw;
+  margin: 0 auto;
+}
+footer ul {
+  list-style-type: none;
+  text-align: center;
+}
+footer li {
+  display: inline;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+  margin:25px;
+}
+
+footer .logo {
+  text-align: left;
+  position: absolute;
+}
